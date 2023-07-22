@@ -33,6 +33,7 @@ basic.forever(function () {
                     basic.showIcon(IconNames.Yes)
                     music._playDefaultBackground(music.builtInPlayableMelody(Melodies.JumpUp), music.PlaybackMode.UntilDone)
                     punkte = 0
+                    basic.clearScreen()
                 }
                 break;
             }
